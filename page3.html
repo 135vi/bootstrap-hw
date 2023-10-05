@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    header {
+        background-color: darkred;
+        padding: 30px;
+        width: 1250px;
+    }
+    a {
+        text-align: left;
+        text-decoration: none;
+        padding: 10px;
+        color: rgb(202, 13, 13);
+    }
+    .white {
+        color: rgb(255, 160, 160);
+    }
+    h1 {
+        text-align: center;
+        font-weight: normal;
+        padding: 15px;
+    }
+    h3 {
+        font-weight: normal;
+    }
+    img {
+        width: 200px;
+    }
+    .containaer-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    }
+    .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .button1 {
+        width: 400px;
+        height: 50px;
+        background-color: rgb(255, 160, 160);
+        color: darkred;
+    }
+    input {
+        width: 400px;
+        padding: 8px;
+    }
+    
+    .button2 {
+        width: 200px;
+        height: 40px;
+        background-color: darkgray;
+        color: white;
+    }
+    .button3 {
+        width: 420px;
+        height: 40px;
+        background-color: darkgray;
+        color: white;
+    }
+</style>
+<header>
+    <a href="page1.html">Home</a>
+    <a href="page2.html">Homework</a>
+    <a href="page3.html" class="white">Setting</a>
+</header>
+<body>
+    <h1>Setting</h1>
+    <main class="button">
+        <button class="button1">AVATAR</button>
+        <button class="button1">STUDENT'S INFO</button>
+        <button class="button1">CHANGE PASSWORD</button>
+    </main>
+    <br>
+    <div class="containaer-flex">
+        <div>
+            <img src="1878180.png">
+            <div><button class="button2">Choose photo</button></div>
+        </div>
+        <div>
+            <form>
+                <input type="text" id="name" placeholder="First name">
+            </form>
+            <br>
+            <form>
+                <input type="text" id="name" placeholder="Last name">
+            </form>
+            <br>
+            <form>
+                <input type="email" id="email" placeholder="Email">
+            </form>
+            <br>
+            <form>
+                <input type="number" id="number" placeholder="Phone number">
+            </form>
+            <br>
+            <form>
+                <input type="text" id="address" placeholder="Address">
+            </form>
+            <br>
+            <form>
+                <input type="text" id="FB link" placeholder="FB link">
+            </form>
+            <br>
+            <button class="button3">Save changes</button>
+        </div>
+        <div>
+            <form>
+                <input type="password" type="password" id="password" placeholder="Old password">
+            </form>
+            <br>
+            <form>
+                <input type="password" type="password" id="password" placeholder="New password">
+            </form>
+            <br>
+            <form>
+                <input type="password" type="password" id="password" placeholder="Repeat password">
+            </form>
+            <br>
+            <button class="button3">Change password</button>
+        </div>
+    </div>
+</body>
+</html>

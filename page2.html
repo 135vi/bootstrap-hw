@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    header {
+        background-color: darkred;
+        padding: 30px;
+        width: 1250px;
+    }
+    a {
+        text-align: left;
+        text-decoration: none;
+        padding: 10px;
+        color: rgb(202, 13, 13);
+    }
+    .white {
+        color: rgb(255, 160, 160);
+    }
+    h1 {
+        text-align: center;
+        font-weight: normal;
+    }
+    .containaer-flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        justify-content: center;
+        padding: 30px;
+    }
+    h2 {
+        font-weight: normal;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        flex: 0 0 auto;
+    }
+    .item0 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 15px;
+        gap: 10px;
+        flex: 0 0 auto;
+    }
+    .item-gray {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 500px;
+        background-color: lightgrey;
+        width: 350px;
+    }
+    .item-blue {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 500px;
+        background-color: rgb(43, 173, 206);
+        color: white;
+        width: 350px;
+    }
+    .item-red {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 500px;
+        background-color: rgb(230, 127, 127);
+        color: white;
+        width: 350px;
+    }
+    .item-green {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 500px;
+        background-color: rgb(34, 194, 100);
+        color: white;
+        width: 350px;
+    }
+    .choose {
+        background-color: white;
+        color: gray;
+        padding: 5px;
+    }
+    .buttom {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttom1 {
+        width: 350px;
+        height: 30px;
+        background-color: rgb(43, 173, 206);
+        color: white;
+    }
+    .buttom2 {
+        width: 350px;
+        height: 30px;
+        background-color: rgb(34, 194, 100);
+        color: white;
+    }
+    .button1 {
+        background-color: lightgrey;
+        height: 30px;
+    }
+    .button2 {
+        background-color: rgb(230, 127, 127);
+        height: 30px;
+    }
+</style>
+<header>
+    <a href="page1.html">Home</a>
+    <a href="page2.html" class="white">Homework</a>
+    <a href="page3.html">Setting</a>
+</header>
+<body>
+    <main class="containaer-flex">
+        <h1>Homework</h1>
+        <div class="item">
+            <h2>JavaScript</h2>
+            <div class="item0">
+                <div class="item-gray">
+                    <h3>Loops</h3>
+                    <time>10\05\2019</time> 
+                    <br>
+                    <div class="choose">Choose file</div><button class="button1">Browse</button>
+                </div>
+                <div class="item-blue">
+                    <h3>Conditional statements</h3>
+                    <time>8\05\2019</time>
+                    <br>
+                    <div class="buttom">
+                        <button class="buttom1">your file</button>
+                        <button class="buttom1">Remove</button>
+                    </div>
+                </div>
+                <div class="item-blue">
+                    <h3>Variables</h3>
+                    <time>5\05\2019</time>
+                    <br>
+                    <div class="buttom">
+                        <button class="buttom1">your file</button>
+                        <button class="buttom1">Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <h2>HTML & CSS</h2>
+            <div class="item0">
+                <div class="item-red">
+                    <h3>Adaptive layout</h3>
+                    <time>29\04\2019</time>
+                    <br>
+                    <div class="choose">Choose file</div><button class="button2">Browse</button>
+                </div>
+                <div class="item-red">
+                    <h3>Grid Layout</h3>
+                    <time>27\04\2019</time>
+                    <br>
+                    <div class="choose">Choose file</div><button class="button2">Browse</button>
+                </div>
+                <div class="item-green">
+                    <h3>Flexbox</h3>
+                    <time>24\04\2019</time>
+                    <br>
+                    <div class="buttom">
+                        <button class="buttom2">your file</button>
+                        <button class="buttom2">Resend</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item0">
+                <div class="item-green">
+                    <h3>Animations</h3>
+                    <time>20\04\2019</time>
+                    <br>
+                    <div class="buttom">
+                        <button class="buttom2">your file</button>
+                        <button class="buttom2">Resend</button>
+                    </div>
+                </div>
+                <div class="item-green">
+                    <h3>Forms</h3>
+                    <time>18\04\2019</time>
+                    <br>
+                    <div class="buttom">
+                        <button class="buttom2">your file</button>
+                        <button class="buttom2">Resend</button>
+                    </div>
+                </div>
+                <div class="item-green">
+                    <h3>Tables</h3>
+                    <time>17\04\2019</time>
+                    <br>
+                    <div class="buttom">
+                        <button class="buttom2">your file</button>
+                        <button class="buttom2">Resend</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

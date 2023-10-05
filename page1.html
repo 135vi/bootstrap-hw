@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    header {
+        background-color: darkred;
+        padding: 30px;
+        width: 1250px;
+    }
+    a {
+        text-align: left;
+        text-decoration: none;
+        padding: 10px;
+        color: rgb(202, 13, 13);
+    }
+    .white {
+        color: rgb(255, 160, 160);
+    }
+    h1 {
+        text-align: center;
+        font-weight: normal;
+        padding: 25px;
+    }
+    h2 {
+        text-align: center;
+        font-weight: normal;
+    }
+
+    .containaer-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        gap: 300px;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 15px;
+        gap: 10px;
+        flex: 0 0 auto;
+    }
+    .item1 {
+        border-radius: 3px;
+        border: 1px solid darkred;
+        padding: 10px;
+        width: 500px;
+    }
+    .item2 {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        align-items: center;
+        margin-top: -8px;
+        margin-bottom: -8px;
+    }
+    .gray {
+        background-color: gray;
+        color: white;
+    }
+    img {
+        width: 25px;
+    }
+    .p {
+        background-color: rgb(202, 13, 13);
+        color: white;
+        border: 1px solid darkred;
+        border-radius: 3px;
+        padding: 10px;
+    }
+    time {
+        border: 1px solid darkred;
+        border-radius: 3px;
+        padding: 20px;
+    }
+</style>
+<header>
+    <a href="page1.html" class="white">Home</a>
+    <a href="page2.html">Homework</a>
+    <a href="page3.html">Setting</a>
+</header>
+<body>
+    <h1>Dakota Greenway (ABC_123)</h1>
+    <main class="containaer-flex">
+        <div class="item">
+            <h2>News</h2>
+            <div class="item1">
+                <h3>Weekends</h3>
+                <p>Dear student, kindly be informed that there will be no lessons on 5th and 6th April at tha<br>Academy due to the holiday.</p>
+            </div>
+            <div class="item1">
+                <h3>Programming consultions</h3>
+                <p>This Sunday, March 26 at 1:00 pm the Academy will be holding programming consultions for first-year students.</p>
+            </div>
+            <div class="item1">
+                <h3>Meeting with ABC Bank</h3>
+                <p>On Monday, March 27 at 7:00 pm, we invite you to a business meeting with ABC Bank</p>
+            </div>
+            <button class="gray">More</button>
+        </div>
+        <div class="item">
+            <h2>Rewards</h2>
+            <div class="item2">
+                <p class="p">Class attended</p>
+                <img src="award-solid.svg">
+                <time>20.04.2019</time>
+            </div>
+            <div class="item2">
+                <time>20.04.2019</time>
+                <img src="award-solid.svg">
+                <p class="p">Class attended</p>
+            </div>
+            <div class="item2">
+                <p class="p">Class attended</p>
+                <img src="award-solid.svg">
+                <time>20.04.2019</time>
+            </div>
+            <div class="item2">
+                <time>20.04.2019</time>
+                <img src="award-solid.svg">
+                <p class="p">Class attended</p>
+            </div>
+            <div class="item2">
+                <p class="p">Class attended</p>
+                <img src="award-solid.svg">
+                <time>20.04.2019</time>
+            </div>
+            <div class="item2">
+                <time>20.04.2019</time>
+                <img src="award-solid.svg">
+                <p class="p">Class attended</p>
+            </div>
+            <div class="item2">
+                <p class="p">Class attended</p>
+                <img src="award-solid.svg">
+                <time>20.04.2019</time>
+            </div>
+            <button class="whites">More</button>
+        </div>
+    </main>
+</body>
+</html>
